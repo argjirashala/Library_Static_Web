@@ -1,0 +1,153 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+#activate-normal {
+    display: none;
+}
+/*Criteria 19*/
+header nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    font-size: 1.5em;
+}
+
+header nav li a
+{
+	display: block;
+	background-color: #52ab98;
+	padding: 12px;
+    color: black;
+	text-decoration: none;
+}
+/*Crteria 20*/
+
+header nav li a:hover
+{
+	background-color: lightgray;
+    color: black;
+}
+
+header nav li a.active
+{
+	background-color: grey;
+    color: black; 
+}
+
+/*****************************/
+
+@media screen and (min-width: 576px)
+{
+	header nav ul {background-color:  #52ab98; overflow: hidden;}
+	header nav li a {float: left;}
+}
+
+
+h1{
+    font-family: 'Oswald' , sans-serif;
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 2.5em /*Criteria 18*/
+}
+
+h2{
+    font-family: 'Oswald' , sans-serif;
+    text-shadow: 2px 2px 2px #ccc;
+    font-size: 2em /*Criteria 18*/
+}
+
+h3{
+    font-family: 'Oswald' , sans-serif;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em /*Criteria 18*/
+}
+
+
+
+p{
+    font-family: 'Oswald' , sans-serif;
+    text-align: justify;
+    font-size: 1em; /*Criteria 18*/
+}
+
+header, main, footer{
+    background-color: white;
+    border: 1px solid black;
+    overflow: hidden; 
+    padding: 10px;
+}
+
+header{
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 0 0;
+
+}
+
+main{
+	background-color:#F6F4F2 ;
+    
+    
+}
+
+.align-center {text-align: center; margin: auto;}
+
+img {
+    margin: auto;
+}
+
+/******** CRITERIA 2->Background image *******/
+
+footer{
+    border-radius: 0 0 10px 10px;
+    background-position: 10px 10px, left bottom;
+    background-image: url('../images/backfooter.PNG');
+    background-repeat:repeat;
+   
+}
+/*****************************/
+
+
+footer p{
+	font-family: 'Oswald' , sans-serif; /*Criteria 17*/
+	text-emphasis:black;
+    font-size: 1.2em;/*Criteria 18*/
+}
+/*Criteria 20*/
+footer a:visited{
+    color: black;
+}
+
+footer a:link{
+    color: gray;
+}
+/*****************************/
+
+table{
+    border: 5px double gray;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+table th{
+    border:1px solid gray;
+}
+
+table td{
+    border:1px solid gray;
+}
+
+table th{
+    background-color: #52ab80;
+}
+
+nav.screenreader a{
+    position: absolute;
+    left: -9999px;
+}
+
+nav.screenreader > a :focus{
+    position: static;
+    background-color: white;
+}
+
+
+

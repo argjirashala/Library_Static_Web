@@ -1,0 +1,19 @@
+
+header,footer,video,caption,summary,#videoP,.screenreader,figcaption{
+    display: none;
+}
+
+table{
+    margin: auto;
+    border: 3px double black;
+    border-collapse:collapse ;
+    caption-side: bottom;
+}
+table td ,th{
+    border: 1px solid black;
+
+}
+
+
+
+
